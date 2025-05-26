@@ -42,12 +42,14 @@ export default function TimeSlotPicker({
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
-            width={{ xs: 1, md: "15%" }}
-            fontSize={{ xs: 14, md: 16 }}
-          >
+          <p style={{
+            width: "15%",
+            fontSize: "16px",
+            margin: 0,
+            padding: 0
+          }}>
             Morning
-          </Typography>
+          </p>
           {availableSlots.morning.map((slot) => (
             <CustomChip
               key={slot}
@@ -64,12 +66,14 @@ export default function TimeSlotPicker({
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
-            width={{ xs: 1, md: "15%" }}
-            fontSize={{ xs: 14, md: 16 }}
-          >
+          <p style={{
+            width: "15%",
+            fontSize: "16px",
+            margin: 0,
+            padding: 0
+          }}>
             Afternoon
-          </Typography>
+          </p>
           {availableSlots.afternoon.map((slot) => (
             <CustomChip
               key={slot}
@@ -86,12 +90,14 @@ export default function TimeSlotPicker({
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
-            width={{ xs: 1, md: "15%" }}
-            fontSize={{ xs: 14, md: 16 }}
-          >
+          <p style={{
+            width: "15%",
+            fontSize: "16px",
+            margin: 0,
+            padding: 0
+          }}>
             Evening
-          </Typography>
+          </p>
           {availableSlots.evening.map((slot) => (
             <CustomChip
               key={slot}

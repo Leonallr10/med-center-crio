@@ -101,15 +101,16 @@ export default function HospitalCard({
         >
           {!booking && (
             <>
-              <Typography
-                textAlign="center"
-                color="primary.green"
-                fontSize={14}
-                fontWeight={500}
-                mb={1}
-              >
-                Available Today
-              </Typography>
+              <p style={{
+                textAlign: "center",
+                color: "#00A500",
+                fontSize: "14px",
+                fontWeight: 500,
+                marginBottom: "8px",
+                marginTop: 0
+              }}>
+                Today
+              </p>
               <Button
                 variant="contained"
                 disableElevation
